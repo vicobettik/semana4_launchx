@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "428aa498-e127-4c34-88ba-f9d12375f98d",
+		"name": "ApiExplorers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/v1/explorers/node",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "/v1/explorers/amount/node",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "/v1/explorers/usernames/:mission",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
