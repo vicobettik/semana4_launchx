@@ -13,7 +13,7 @@ describe('Test for ExplorerService', () => {
         const explorer1 = {name: "Explorer1", mission: 'javascript'};
         const explorer2 = {name: "Explorer2", mission: 'js'};
         const result = ExplorerService.getAmountOfExplorersByMission([explorer1, explorer2], 'node');
-        expect(result).toBe(0);
+        expect(result.amount).toBe(0);
     })
 
     test('3) Return names of explorers with mission = node', () => {
