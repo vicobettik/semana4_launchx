@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "428aa498-e127-4c34-88ba-f9d12375f98d",
+		"_postman_id": "23755847-9a1a-4dcb-8b80-147afc5fde47",
 		"name": "ApiExplorers",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -9,7 +9,19 @@
 			"name": "/v1/explorers/node",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/v1/explorers/node",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"explorers",
+						"node"
+					]
+				}
 			},
 			"response": []
 		},
@@ -17,7 +29,19 @@
 			"name": "/v1/explorers/amount/node",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/v1/amount/node",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"amount",
+						"node"
+					]
+				}
 			},
 			"response": []
 		},
@@ -25,7 +49,40 @@
 			"name": "/v1/explorers/usernames/:mission",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/v1/explorers/usernames/node",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"explorers",
+						"usernames",
+						"node"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/v1/explorers/usernames/node",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/v1/fizzbuzz/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"fizzbuzz",
+						"1"
+					]
+				}
 			},
 			"response": []
 		}
